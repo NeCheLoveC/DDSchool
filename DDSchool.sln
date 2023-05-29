@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDSchool", "DDSchool\DDSchool.csproj", "{6AE963CC-D310-4CBA-BA3A-6A681BC4B348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextParser", "TextParser\TextParser.csproj", "{5F723783-7001-4229-8136-B65BF17BC59A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6AE963CC-D310-4CBA-BA3A-6A681BC4B348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AE963CC-D310-4CBA-BA3A-6A681BC4B348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AE963CC-D310-4CBA-BA3A-6A681BC4B348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F723783-7001-4229-8136-B65BF17BC59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F723783-7001-4229-8136-B65BF17BC59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F723783-7001-4229-8136-B65BF17BC59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F723783-7001-4229-8136-B65BF17BC59A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
