@@ -65,10 +65,7 @@ namespace TextParser
                 tasks[i] = task;
             }
             //Сортировку нужно запустить после завершения ВСЕХ потоков
-            foreach (Task t in tasks)
-            {
-                t.Wait();
-            }
+            Task.WaitAll(tasks);
             return dictionary = dictionary.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
         }
 
