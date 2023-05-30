@@ -14,7 +14,7 @@ namespace Task3.Controllers
     {
         [HttpPost]
         [Route("calculate-words")]
-        public IEnumerable<KeyValuePair<String, int>> CalculateWords([FromBody]String text)
+        public Dictionary<string, int> CalculateWords([FromBody]String text)
         {
             WordCalculatorThread parser = new WordCalculatorThread();
             return parser.Parse(text);
